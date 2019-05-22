@@ -13,6 +13,7 @@ class FizzBuzzTest {
   @Test
   void fizzBuzzValue() {
     String actual;
+
     actual = FizzBuzz.fizzBuzzValue(3);
     assertEquals(FIZZ, actual);
     actual = FizzBuzz.fizzBuzzValue(99);
